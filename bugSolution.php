@@ -1,0 +1,1 @@
+The solution involves checking the index before attempting to access the array element. This ensures that we are only accessing valid elements within the bounds of the array.  Using `isset` or checking `$i < count($myArray)` prevents the error.
