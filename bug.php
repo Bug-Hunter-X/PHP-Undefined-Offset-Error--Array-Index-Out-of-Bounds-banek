@@ -1,0 +1,1 @@
+This code attempts to access an array element using an invalid index, potentially leading to an unexpected behavior or error.  The problem is that the `$i` variable might exceed the bounds of the `$myArray` array.  If `$i` is greater than or equal to `count($myArray)`, then this will result in an `Undefined offset` notice (or error, depending on PHP's error reporting settings).
